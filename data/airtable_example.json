@@ -1,0 +1,4 @@
+[
+  {"fields": {"Sample_ID": "SMP-2026-001", "Client_Name": "Beispielkunde A", "Project_Name": "Oncology Panel", "Submission_Date": "2026-10-08", "Operator_Notes": "Synthetische Beispieldaten."}},
+  {"fields": {"Sample_ID": "SMP-2026-002", "Client_Name": "Beispielkunde B", "Project_Name": "Whole Exome", "Submission_Date": "2026-10-07", "Operator_Notes": "Ein Messwert ist in der Quelldatei als FLAGGED markiert."}}
+]

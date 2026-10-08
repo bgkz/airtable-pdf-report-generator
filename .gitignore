@@ -1,0 +1,48 @@
+# Local credentials and environment variables
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Generated reports
+output/
+
+# Local input data: publish only the explicit demo fixtures
+data/*
+!data/sequencing_data.csv
+!data/airtable_example.json
+
+# Private keys and local credentials
+*.pem
+*.key
+.aws/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local editor and operating system files
+.idea/
+.vscode/
+.agents/
+.codex/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
